@@ -1,6 +1,6 @@
-x = input('Digite um número: ')
-y = input('Digite um número:')
-z = input('Digite um número:')
+x = int(input('Digite um número: '))
+y = int(input('Digite um número:'))
+z = int(input('Digite um número:'))
 
 def maior():
 	if x > y and x > z:
