@@ -6,9 +6,9 @@ numero_sorteado = random.randint(1, 20)
 
 total_de_tentativas = 0
 
-while total_de_tentativas <5:
+while total_de_tentativas <3:
 
-	print('Escreva um numero: ')
+	print('Digite um numero: ')
 
 	tentativa = int(input())
 
@@ -16,6 +16,7 @@ while total_de_tentativas <5:
 
 	if tentativa > numero_sorteado:
 		print('Digite um número menor: ')
+		break
 
 	else:
 		print('Digite um número maior: ')
