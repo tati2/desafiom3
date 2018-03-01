@@ -17,14 +17,5 @@ precisa tomar um remédio num período de um dia.
 '''
 
 
-
-
-
-
-
-
-
-
-
 for numero in range(1,10):
 	print(numero)
