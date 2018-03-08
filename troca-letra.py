@@ -1,11 +1,14 @@
 palavra = input('Digite uma palavra com cinco letras: \n')
 qtd_de_letras = len(palavra)
 
-if qtd_de_letras > 5:
-	print('Digite novamente: \n')
-	letra = palavra[0:2]
+final = qtd_de_letras - 4 
+'''essa variavel serve para contar quantas letras quero tirar'''
+
+if qtd_de_letras >= 6:
+	letra = palavra[0:final]
+'''essa variavel divide a palavra'''
 	resultado = letra + str('gato')
 	print(resultado)
 
 else:
-	print('Sua palavra não tem a quantidade sulficiente.')
+	print('Digite uma palavra maior: ')
